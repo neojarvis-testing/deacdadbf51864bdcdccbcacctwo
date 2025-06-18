@@ -2,7 +2,7 @@ import unittest
 import pytest
 import os
 from selenium import webdriver
-from selenium.webdriver.support.events import EventFiringWebDriver
+from selenium.webdriver.support.events import *
 from utilities.eventHandler import EventHandler  
 
 class BaseTest(unittest.TestCase):
